@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('/assets/images/default.jpg');
+    background-image: url('./../images/default.jpg');
     height: 100vh;
     overflow: hidden;
     background-repeat: no-repeat;

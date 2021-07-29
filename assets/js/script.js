@@ -61,27 +61,27 @@ function showWeatherReport(weather) {
     // console.log(weatherType.innerHTML)
 
     if(weatherType.textContent == 'Clear') {
-        document.body.style.backgroundImage = "url('/assets/images/clear.jpg')";
+        document.body.style.backgroundImage = "url('./assets/images/clear.jpg')";
         
     } else if(weatherType.textContent == 'Clouds') {
 
-        document.body.style.backgroundImage = "url('/assets/images/sky.jpg')";
+        document.body.style.backgroundImage = "url('./assets/images/sky.jpg')";
         
     } else if(weatherType.textContent == 'Haze') {
 
-        document.body.style.backgroundImage = "url('/assets/images/haze.jpg')";
+        document.body.style.backgroundImage = "url('./assets/images/haze.jpg')";
         
     }     else if(weatherType.textContent == 'Rain') {
         
-        document.body.style.backgroundImage = "url('/assets/images/rain.jpg')";
+        document.body.style.backgroundImage = "url('./assets/images/rain.jpg')";
         
     } else if(weatherType.textContent == 'Snow') {
         
-        document.body.style.backgroundImage = "url('/assets/images/snow.jpg')";
+        document.body.style.backgroundImage = "url('./assets/images/snow.jpg')";
     
     } else if(weatherType.textContent == 'Thunderstorm') {
     
-        document.body.style.backgroundImage = "url('/assets/images/thunder.jpg')";
+        document.body.style.backgroundImage = "url('./assets/images/thunder.jpg')";
         
     } 
 }
